@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/reinwald.dev/static/js/main.6a2101ca.chunk.js",
+    "main.js.map": "/reinwald.dev/static/js/main.6a2101ca.chunk.js.map",
+    "runtime-main.js": "/reinwald.dev/static/js/runtime-main.f3f920ff.js",
+    "runtime-main.js.map": "/reinwald.dev/static/js/runtime-main.f3f920ff.js.map",
+    "static/js/2.243f261a.chunk.js": "/reinwald.dev/static/js/2.243f261a.chunk.js",
+    "static/js/2.243f261a.chunk.js.map": "/reinwald.dev/static/js/2.243f261a.chunk.js.map",
+    "index.html": "/reinwald.dev/index.html",
+    "precache-manifest.a32b0d063a8e2b4e8f2ded23ba9bef3e.js": "/reinwald.dev/precache-manifest.a32b0d063a8e2b4e8f2ded23ba9bef3e.js",
+    "service-worker.js": "/reinwald.dev/service-worker.js",
+    "static/js/2.243f261a.chunk.js.LICENSE.txt": "/reinwald.dev/static/js/2.243f261a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3f920ff.js",
+    "static/js/2.243f261a.chunk.js",
+    "static/js/main.6a2101ca.chunk.js"
+  ]
+}
