@@ -40,6 +40,8 @@ const ContentCell = styled.div`
     max-width: 1000px;
 
     justify-self: center;
+
+    font-size: 20pt;
 `;
 
 const Headline = styled.div`

@@ -4,7 +4,7 @@ const useCatPicUrl = () => {
     const [catImageUrl, setCatImageUrl] = useState('');
     useEffect(() => {
         const getCatPicUrl = async () => {
-            return await fetch('http://aws.random.cat/meow')
+            return await fetch('https://aws.random.cat/meow')
                 .then((response) => {
                     return response.json();
                 })

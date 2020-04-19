@@ -24,19 +24,29 @@ const FooterCell = styled.div`
 
     justify-self: center;
     align-self: center;
+
+    font-size: 20pt;
 `
 
-export interface FooterProps {
+const FakeImpressumLink = styled.div`
+    cursor: pointer;
 
+    &::after {
+        cursor: initial;
+    }
+`;
+
+export interface FooterProps {
+    showImpressum: () => void;
 }
 
-const Footer: FunctionComponent<FooterProps> = () => {
+const Footer: FunctionComponent<FooterProps> = (props) => {
     return (
         <FooterGrid>
             <FooterBackground />
             <FooterCell>
                 <FooterItems>
-                    <div>Impressum</div>
+                    <FakeImpressumLink onClick={props.showImpressum}>Impressum</FakeImpressumLink>
                     <div>Source can be found <a href="https://github.com/DonatJR/reinwald.dev">here</a></div>
                     <div>Powered by <a href="https://pages.github.com/">GitHub Pages</a></div>
                 </ FooterItems>

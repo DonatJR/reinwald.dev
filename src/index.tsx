@@ -16,8 +16,6 @@ const GlobalStyle = createGlobalStyle`
 
     * {
         font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        font-size: 20pt;
         color: #dddddd;
     }
 
