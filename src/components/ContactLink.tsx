@@ -9,32 +9,17 @@ const LinkElement = styled.a`
     justify-content: center;
     padding: 5px;
     min-width: 100px;
-
+    width: fit-content;
     font-size: 14pt;
     border: solid 1px #00000000;
     text-decoration: none;
 
     transition: all 0.1s ease-in-out;
 
-    &::after {
-        content: '';
-        position: absolute;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        border-radius: 5px;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-        transition: opacity 0.1s ease-in-out;
-    }
-
     &:hover {
         transform: scale(1.1, 1.1);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
         cursor: pointer;
-    }
-
-    &:hover::after {
-        opacity: 1;
     }
 `;
 
