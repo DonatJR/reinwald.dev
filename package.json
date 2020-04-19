@@ -12,12 +12,10 @@
         "@types/react": "^16.9.31",
         "@types/react-dom": "^16.9.6",
         "@types/styled-components": "^5.0.1",
-        "gh-pages": "^2.2.0",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-scripts": "3.4.1",
         "styled-components": "^5.0.1",
-        "styled-reset": "^4.1.2",
         "typescript": "^3.7.5"
     },
     "scripts": {
@@ -42,5 +40,11 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "@iconify/icons-ant-design": "^1.0.7",
+        "@iconify/icons-fa-brands": "^1.0.11",
+        "@iconify/react": "^1.1.3",
+        "gh-pages": "^2.2.0"
     }
 }

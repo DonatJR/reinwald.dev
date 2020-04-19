@@ -1,19 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-import { Reset } from 'styled-reset'
+import App from './components/App';
+import * as serviceWorker from './scripts/serviceWorker';
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
-  html, * {
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-  }
+    html, body, #root {
+        width: 100%;
+        height: 100%;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    * {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 20pt;
+        color: #dddddd;
+    }
+
+    *, *:after, *:before {
+        box-sizing: border-box;
+    }
+
+    a {
+        color: #dddddd;
+    }
 `
 ReactDOM.render(
     <React.StrictMode>
-        <Reset />
         <GlobalStyle />
         <App />
     </React.StrictMode>,
